@@ -7,6 +7,8 @@ import './App.css';
 import Mycomponet from './components/Mycomponet';
 import Events from './components/Events';
 import Challenge from './components/Challenge';
+import City from './assets/logoTeste.png';
+import ManageDataHooks from './components/ManageDataHooks';
 
 function App() {
   return (
@@ -21,7 +23,15 @@ function App() {
         <Mycomponet />
         <Events />
         <Challenge />
-        
+        {/* imagens public */}
+        <div>
+          <img src="logo192.png" alt="logo react" />
+        </div>
+        {/* img asset */}
+        <div>
+          <img src={City} alt="logo" />
+        </div>
+        <ManageDataHooks />
 
        
       

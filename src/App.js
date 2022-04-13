@@ -10,6 +10,8 @@ import Challenge from './components/Challenge';
 import City from './assets/logoTeste.png';
 import ManageDataHooks from './components/ManageDataHooks';
 import ListRender from "./components/ListRender";
+import ListRenderKey from "./components/ListRenderKey";
+import ListRenderKeyPreviuState from "./components/ListRenderKeyPreviuState";
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         </div>
         <ManageDataHooks />
         <ListRender />
+        <ListRenderKey />
+       <ListRenderKeyPreviuState />
        
       
     </div>

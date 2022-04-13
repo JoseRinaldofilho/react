@@ -9,6 +9,7 @@ import Events from './components/Events';
 import Challenge from './components/Challenge';
 import City from './assets/logoTeste.png';
 import ManageDataHooks from './components/ManageDataHooks';
+import ListRender from "./components/ListRender";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           <img src={City} alt="logo" />
         </div>
         <ManageDataHooks />
-
+        <ListRender />
        
       
     </div>
